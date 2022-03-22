@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.HCreations.gurubaniapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pic2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pic2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GuruBaniApp">
+        <activity
+            android:name=".PolicyActivity"
+            android:exported="false"
+            android:label="@string/title_activity_policy"
+            android:theme="@style/Theme.GuruBaniApp.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5296094519014928~3564888068" />
+
+        <activity
+            android:name=".Study8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Study7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Study6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Study5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Study4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Study3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Study2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Study1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
